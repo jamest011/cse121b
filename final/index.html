@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Yu-Gi-Oh! API</title>
+  </head>
+  <body>
+    <nav>
+      <ul id="menu">
+          <li><a id="toggleMenu">&equiv;</a></li>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/week3/task2.html">Lesson 2</a></li>
+          <li><a href="/week4/task3.html">Lesson 3</a></li>
+          <li><a href="/week5/task4.html">Lesson 4</a></li>
+          <li><a href="/final/index.html" class="active">Final</a></li>
+      </ul>
+  </nav>
+    <main>
+      <section class="gameNight">
+        <h2>
+            Today is <span id="message2"></span>.
+        </h2>
+        <h3>
+            <span id="message1"></span>
+        </h3>
+    </section>
+      <h1>Yu-Gi-Oh! Card Finder</h1>
+      <div class="searchBox">
+        <input id="cardName" type="text" placeholder="Search for a card"
+        />
+        <button id="search">| Search ➦ </button>
+      </div>
+      <div class="randomSearch"></div>
+        <button id="random"> Random Card 🎲</button>
+      </div>
+      <div class="cardBox">
+        <div>
+          <a href="">
+          <img
+            src="https://ms.yugipedia.com//e/ee/Back-ZX-Site.png"
+            alt="Card name"
+          />
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <script src="scripts.js"></script>
+    <script src="/scripts/main.js"></script>
+  </body>
+</html>
